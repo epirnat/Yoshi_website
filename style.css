@@ -140,6 +140,7 @@ footer {
 }
 
 /* Psuedo classes */
+
 nav li a:hover {
     text-decoration: underline;
 }
@@ -174,4 +175,25 @@ p::selection {
 
 P::after {
     content: '...';
+}
+
+/* responsive styles */
+
+@media screen and (max-width: 1400px) {
+
+    .banner .welcome h2 {
+        font-size: 60px;
+    }
+
+    nav li {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+
+    .banner .welcome h2 {
+        font-size: 42px;
+    }
+
 }
